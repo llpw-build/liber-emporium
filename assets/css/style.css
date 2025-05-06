@@ -1,3 +1,6 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* Asterix wildcard selector to override default styles added by the browser */
 
 * {
