@@ -1,56 +1,103 @@
-/* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+ /* Google fonts import */
+ @import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* Asterix wildcard selector to override default styles added by the browser */
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+ /* Asterix wildcard selector to override default styles added by the browser */
 
-/* General styles */
 
-body {
-    min-height: 100vh;
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+
+
+ /* General styles */
+
+
+ body {
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     /* Generic project styles */
+     color: #3a3a3a;
+     font-family: 'Roboto', sans-serif;
+ }
+
+
+ /* Header */
+ header {
+     background-color: #ffffff;
+     padding: 0 1rem;
+     position: fixed;
+     z-index: 99;
+     width: 100%;
+     box-shadow: 0 2px 2px #3a3a3a;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+
+ /* A tags within the header */
+
+
+ header a {
+     text-decoration: none;
+     color: inherit;
+ }
+
+
+ h1 {
+     font-family: 'Bad Script', sans-serif;
+     letter-spacing: 1px;
+     color: #ADD8E6;
+ }
+
+ #logo {
+    margin-left: 20px;
+ }
+
+/* Custom Nav Bar */
+
+#menu ul {
     display: flex;
-    flex-direction: column;
-    /* Generic project styles */
-    color: #3a3a3a;
-    font-family: 'Roboto', sans-serif; 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
 }
 
-/* Header */
-header {
-    background-color: #ffffff;
-    padding: 0 1rem;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a
+#menu li {
+    margin-left: 20px
 }
 
-/* A tags within the header */ 
+/* Customising the links */
 
-header a {
-    text-decoration: none;
-    color: inherit;
+#menu a {
+   text-decoration: none; 
+   color: lightblue;
 }
 
-h1 {
-    font-family: 'Bad Script', sans-serif;
-    letter-spacing: 1px;
-    color: #ADD8E6;
+#menu a:hover {
+    color: lightgray;
 }
 
-/* Main content */
-main {
-    background-color: lightblue;
-    /* Make main elements take up any surplus space to push footer down */
-    flex: 1 0 auto;
+/* Highlight current active page */
+
+.active {
+    border-bottom: 1px solid lightgray;
 }
 
-/* Footer */
-footer {
-    background-color: orange;
-}
+ /* Main content */
+ main {
+     background-color: lightblue;
+     /* Make main elements take up any surplus space to push footer down */
+     flex: 1 0 auto;
+ }
+
+
+ /* Footer */
+ footer {
+     background-color: orange;
+ }
