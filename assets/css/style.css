@@ -143,6 +143,7 @@
      background-color: lightblue;
      /* Make main elements take up any surplus space to push footer down */
      flex: 1 0 auto;
+     padding-top: 70px;
  }
 
 
