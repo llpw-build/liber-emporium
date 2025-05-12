@@ -132,6 +132,111 @@ h1 {
     transition: 0.3s;
 }
 
+/* Main content */
+main {
+    background-color: lightblue;
+    /* Make main elements take up any surplus space to push footer down */
+    flex: 1 0 auto;
+    padding-top: 70px;
+}
+
+/* Logo styling */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+#circular-logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ADD8E6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Introductory text styling */
+
+.intro-text {
+    text-align: center;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.intro-text h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.intro-text p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+/* Carousel styling */
+
+.col-md-6 .carousel-item img {
+    height: 300px;
+    /* Remove distortion */
+    object-fit: cover;
+}
+
+/* Adjust captions in carousel */
+
+.col-md-6 .carousel-caption {
+    padding: 8px;
+}
+
+.col-md-6 .carousel-caption h5 {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.col-md-6 .carousel-caption p {
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}
+
+/* Customise buttons */
+
+.col-md-6 .carousel-control-prev-icon,
+.col-md-6 .carousel-control-next-icon {
+    width: 25px;
+    height: 25px;
+}
+
+/* Footer */
+
+
+/* Customise social media links */
+#social-media-links {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+
+#social-media-links i {
+    font-size: 200%;
+    padding: 5%;
+    color: lightblue;
+}
+
+
+#social-media-links i:hover {
+    color: lightgray;
+}
+
+/* Responsiveness */
 
 @media screen and (max-width: 768px) {
     .nav-menu-label {
@@ -166,44 +271,51 @@ h1 {
     .nav-menu:checked~#menu {
         display: block;
     }
+
+    #circular-logo {
+        width: 150px;
+        height: 150px;
+    }
+
+    .intro-text h2 {
+        font-size: 1.6rem;
+    }
+
+    .intro-text p {
+        font-size: 1rem;
+    }
+
+    .col-md-6 .carousel-item img {
+        height: 200px 
+    }
+
+    .carousel-caption h5 {
+        font-size: 1rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.8rem;
+    }
 }
 
+@media screen and (max-width: 576px) {
+    .col-md-6 .carousel-item img {
+        height: 200px;
+    }
 
-/* Main content */
-main {
-    background-color: lightblue;
-    /* Make main elements take up any surplus space to push footer down */
-    flex: 1 0 auto;
-    padding-top: 70px;
+    .carousel-caption {
+        padding: 5px;
+        bottom: 5px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 0.9rem;
+        margin-bottom: 2px;
+    }
+
+    .carousel-caption p {
+        font-size: 0.7rem;
+        line-height: 1.2;
+    }
 }
 
-
-
-/* Footer */
-
-
-/* Customise social media links */
-#social-media-links {
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-}
-
-
-#social-media-links i {
-    font-size: 200%;
-    padding: 5%;
-    color: lightblue;
-}
-
-
-#social-media-links i:hover {
-    color: lightgray;
-}
-
-
-#map-location {
-    display: flex
-}
