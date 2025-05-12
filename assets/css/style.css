@@ -65,6 +65,7 @@ h1 {
 
 #logo {
     margin-left: 20px;
+    margin-top: 5px;
 }
 
 
@@ -212,6 +213,68 @@ main {
     height: 25px;
 }
 
+/* Informative section styling */
+
+.info-grid-section {
+    padding: 3rem 0;
+    background-color: lightblue;
+}
+
+.info-grid-section h2 {
+    color: lightblue;
+    margin-bottom: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.info-grid-section .row + .row {
+    margin-top: 1.5rem;
+}
+
+.logo-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.logo-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.logo-image {
+    flex: 0 0 80px;
+    margin-right: 1rem;
+}
+
+.logo-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid lightblue;
+}
+
+.logo-text {
+    flex: 1;
+}
+
+.logo-text h3 {
+    font-size: 1.2rem;
+    color: lightblue;
+    margin-bottom: 0.5rem;
+}
+
+.logo-text p {
+    font-size: 0.9rem;
+    color: lightblue;
+    margin-bottom: 0;
+}
+
 /* Footer */
 
 
@@ -295,6 +358,21 @@ main {
 
     .carousel-caption p {
         font-size: 0.8rem;
+    }
+
+    .logo-item {
+        flex-direction: column;
+        text-align: center;
+        padding: 1.5rem  1rem;
+    }
+
+    .logo-image {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    .col-md-5 {
+        margin-bottom: 1.5rem;
     }
 }
 
