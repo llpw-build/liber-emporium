@@ -1,64 +1,78 @@
- /* Google fonts import */
- @import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 
- /* Asterix wildcard selector to override default styles added by the browser */
+
+/* Asterix wildcard selector to override default styles added by the browser */
 
 
- * {
-     padding: 0;
-     margin: 0;
-     box-sizing: border-box;
- }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 
- /* General styles */
+
+/* General styles */
 
 
- body {
-     min-height: 100vh;
-     display: flex;
-     flex-direction: column;
-     /* Generic project styles */
-     color: #3a3a3a;
-     font-family: 'Roboto', sans-serif;
- }
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #3a3a3a;
+    font-family: 'Roboto', sans-serif;
+}
 
 
- /* Header */
- header {
-     background-color: #ffffff;
-     padding: 0 1rem;
-     position: fixed;
-     z-index: 99;
-     width: 100%;
-     box-shadow: 0 2px 2px #3a3a3a;
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
- }
+
+/* Header */
+header {
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
- /* A tags within the header */
+
+/* A tags within the header */
 
 
- header a {
-     text-decoration: none;
-     color: inherit;
- }
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
 
 
- h1 {
-     font-family: 'Bad Script', sans-serif;
-     letter-spacing: 1px;
-     color: #ADD8E6;
- }
 
- #logo {
+h1 {
+    font-family: 'Bad Script', sans-serif;
+    letter-spacing: 1px;
+    color: #ADD8E6;
+}
+
+
+#logo {
     margin-left: 20px;
- }
+}
+
 
 /* Custom Nav Bar */
+
+#menu {
+    margin-right: 20px
+}
 
 #menu ul {
     display: flex;
@@ -68,36 +82,46 @@
     justify-content: flex-end;
 }
 
+
 #menu li {
     margin-left: 20px
 }
 
+
 /* Customising the links */
 
+
 #menu a {
-   text-decoration: none; 
-   color: lightblue;
+    text-decoration: none;
+    color: lightblue;
 }
+
 
 #menu a:hover {
     color: lightgray;
 }
 
+
 /* Highlight current active page */
+
 
 .active {
     border-bottom: 1px solid lightgray;
 }
 
+
 /* Hamburger for mobile customisation */
+
 
 .nav-menu {
     display: none;
 }
 
+
 .nav-menu-label {
     display: none;
 }
+
 
 .nav-menu-label span {
     display: block;
@@ -108,11 +132,14 @@
     transition: 0.3s;
 }
 
+
 @media screen and (max-width: 768px) {
     .nav-menu-label {
         display: block;
         cursor: pointer;
+        padding-right: 20px;
     }
+
 
     #menu {
         display: none;
@@ -123,31 +150,60 @@
         background-color: #ffffff;
     }
 
+
     #menu ul {
         flex-direction: column;
         padding: 1rem 0
     }
+
 
     #menu li {
         margin: 1rem 0;
         text-align: center;
     }
 
-    .nav-menu:checked ~ #menu {
+
+    .nav-menu:checked~#menu {
         display: block;
     }
 }
 
- /* Main content */
- main {
-     background-color: lightblue;
-     /* Make main elements take up any surplus space to push footer down */
-     flex: 1 0 auto;
-     padding-top: 70px;
- }
+
+/* Main content */
+main {
+    background-color: lightblue;
+    /* Make main elements take up any surplus space to push footer down */
+    flex: 1 0 auto;
+    padding-top: 70px;
+}
 
 
- /* Footer */
- footer {
-     background-color: orange;
- }
+
+/* Footer */
+
+
+/* Customise social media links */
+#social-media-links {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+
+#social-media-links i {
+    font-size: 200%;
+    padding: 5%;
+    color: lightblue;
+}
+
+
+#social-media-links i:hover {
+    color: lightgray;
+}
+
+
+#map-location {
+    display: flex
+}
