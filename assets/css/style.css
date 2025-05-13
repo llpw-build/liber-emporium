@@ -73,9 +73,10 @@ h1 {
 .location-section {
     padding: 3rem 0;
     background-color: lightblue;
+    margin-top: 2rem;
 }
 
-.location-section h2 {
+.map-column h2 {
     color: white;
     margin-bottom: 1.5rem;
     font-family: 'Roboto', sans-serif;
@@ -84,8 +85,75 @@ h1 {
 .map-container {
     border-radius: 8px;
     overflow: hidden;
-    margin-bottom:2rem;
+    margin-bottom: 1.5rem;
 }
+
+/* Store info styling */
+
+.store-info {
+    background-color: lightblue;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.store-info p {
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-items: center;
+}
+
+.store-info i {
+    color: white;
+}
+
+/* Contact form styling */
+
+.contact-column {
+    background-color: lightblue;
+    padding: 2rem;
+    border-radius: 8px;
+    color: white;
+}
+
+.contact-column h2 {
+    color: white;
+    margin-bottom: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact-form .form-label {
+    color: white;
+    font-weight: 500;
+}
+
+.contact-form .form-control,
+.contact-form .form-select {
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 0.75rem;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.contact-form .form-control:focus,
+.contact-form .form-select:focus {
+    box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.contact-form .btn {
+    background-color: white;
+    color: lightblue;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.contact-form .btn-hover {
+    background-color: lightcyan;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 
 /* Custom Nav Bar */
 
@@ -391,6 +459,14 @@ main {
 
     .col-md-5 {
         margin-bottom: 1.5rem;
+    }
+
+    .map-column, .contact-column {
+        margin-bottom: 2rem;
+    }
+
+    .contact-column {
+        margin-top: 2rem;
     }
 }
 
