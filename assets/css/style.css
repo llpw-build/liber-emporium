@@ -1,11 +1,7 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-
-
 /* Asterix wildcard selector to override default styles added by the browser */
-
-
 
 * {
     padding: 0;
@@ -13,11 +9,7 @@
     box-sizing: border-box;
 }
 
-
-
 /* General styles */
-
-
 
 body {
     min-height: 100vh;
@@ -27,8 +19,6 @@ body {
     color: #3a3a3a;
     font-family: 'Roboto', sans-serif;
 }
-
-
 
 /* Header */
 header {
@@ -43,18 +33,12 @@ header {
     align-items: center;
 }
 
-
-
 /* A tags within the header */
-
-
 
 header a {
     text-decoration: none;
     color: inherit;
 }
-
-
 
 h1 {
     font-family: 'Bad Script', sans-serif;
@@ -67,8 +51,6 @@ h1 {
     margin-left: 20px;
     margin-top: 20px;
 }
-
-
 
 /* Custom Nav Bar */
 
@@ -89,41 +71,32 @@ h1 {
     margin-left: 20px
 }
 
-
 /* Customising the links */
-
 
 #menu a {
     text-decoration: none;
     color: lightblue;
 }
 
-
 #menu a:hover {
     color: lightgray;
 }
 
-
 /* Highlight current active page */
-
 
 .active {
     border-bottom: 1px solid lightgray;
 }
 
-
 /* Hamburger for mobile customisation */
-
 
 .nav-menu {
     display: none;
 }
 
-
 .nav-menu-label {
     display: none;
 }
-
 
 .nav-menu-label span {
     display: block;
@@ -394,10 +367,39 @@ main {
     width: 100%;
 }
 
+/* Photo and text sections for additional pages */
+
+.photo-section {
+    padding: 4rem 0;
+}
+
+.photo-section img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.photo-section img:hover {
+    transform: scale(1.02);
+}
+
+.photo-section h2 {
+    color: white;
+    margin-bottom: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.photo-section p {
+    color: white;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
 /* Footer */
 
-
-/* Customise social media links */
+/* Customised social media links */
 #social-media-links {
     text-align: center;
     padding: 20px 0;
@@ -406,13 +408,11 @@ main {
     list-style-type: none;
 }
 
-
 #social-media-links i {
     font-size: 200%;
     padding: 5%;
     color: lightblue;
 }
-
 
 #social-media-links i:hover {
     color: lightgray;
@@ -427,7 +427,6 @@ main {
         padding-right: 20px;
     }
 
-
     #menu {
         display: none;
         position: absolute;
@@ -437,18 +436,15 @@ main {
         background-color: #ffffff;
     }
 
-
     #menu ul {
         flex-direction: column;
         padding: 1rem 0
     }
 
-
     #menu li {
         margin: 1rem 0;
         text-align: center;
     }
-
 
     .nav-menu:checked~#menu {
         display: block;
@@ -500,6 +496,10 @@ main {
 
     .contact-column {
         margin-top: 0;
+    }
+
+    .alternating-section {
+        padding: 2rem 0;
     }
 }
 
