@@ -400,6 +400,65 @@ main {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Enquiry form styling for additional pages */
+
+.enquiry-section {
+    padding: 4rem 0;
+    background-color: lightblue;
+}
+
+.enquiry-content {
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid white;
+}
+
+.enquiry-section h2 {
+    color: white;
+    margin-bottom: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.enquiry-section p {
+    color: white;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.enquiry-form .form-label {
+    color: white;
+    font-weight: 500;
+}
+
+.enquiry-form .form-control,
+.enquiry-form .form-select {
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 0.75rem;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.enquiry-form .form-control:focus,
+.enquiry-form .form-select:focus {
+    box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.enquiry-form .btn {
+    background-color: white;
+    color: lightblue;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+}
+
+.enquiry-form .btn:hover {
+    background-color: #f8f9fa;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 /* Footer */
 
 /* Customised social media links */
@@ -503,6 +562,10 @@ main {
 
     .alternating-section {
         padding: 2rem 0;
+    }
+
+    .enquiry-content {
+        padding: 1.5rem
     }
 }
 
