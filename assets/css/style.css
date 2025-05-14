@@ -376,6 +376,11 @@ main {
 .photo-section img {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    max-height: 450px;
+    width: auto;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
 }
 
 .photo-section img:hover {
@@ -394,8 +399,6 @@ main {
     line-height: 1.6;
     font-family: 'Roboto', sans-serif;
 }
-
-
 
 /* Footer */
 
