@@ -31,49 +31,49 @@ As you can see, the colour ways did not look good together and the overall layou
 - ### Home page
 The home page is the first things the customer sees, and I wanted it to be attractive and appealing, include a logo and informative sections. Here we can see the homr page on opening up the website:
 
-![Homepage](homepage.png)
+![Homepage](images/homepage.png)
 
 Here is the informative carousel providing the user a preview:
 
-![Carousel](carousel.png)
+![Carousel](images/carousel.png)
 
 Here is the informative section with styling to draw the users eye:
 
-![informative](informative.png)
+![informative](images/informative.png)
 
 Here is the location and contact us section, which aids the user in finding or contacting the shop and also provides form:
 
-![location and contact section](lcsection.png)
+![location and contact section](images/lcsection.png)
 
 - ### Navbar
 
 The navbar is available on all pages and provides a clean and simply way for the user to access any of the site. This is the same for any screen size, however, for mobile it becomes a hamburger menu for easier access:
 
-![Navbar](navbar.png)
+![Navbar](images/navbar.png)
 
 - ### Footer
 
 A simple footer with custom social media links that open in a new tab:
 
-![footer](footer.png)
+![footer](images/footer.png)
 
 - ### Additional pages photo and information section
 
 On each additional page, there is a text and image section which provides the user with an example of what they can either purchase or recieve as a service and text explaining the different options to the user:
 
-![image and text informative](itsection.png)
+![image and text informative](images/itsection.png)
 
 - ### Contact form for enquiring about any product or service offered on each page
 
 On each page there is also a form for contacting the store or enquiring about the products or services on offer:
 
-![form](form.png)
+![form](images/form.png)
 
 - ### Confirmation of form submitted page
 
 Whenever any form is submitted on the website, the user is taken to a confirmation page which also goes directly back to the home page.
 
-![confirmation](confirmation.png)
+![confirmation](images/confirmation.png)
 
 ## Technology used
 
