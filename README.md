@@ -136,7 +136,7 @@ Live access to the site is available at:
 - All maps provided by Google.
 
 ### Fonts:
-- All fonts provided by [Google.](fonts.google.com)
+- All fonts provided by [Google.](fonts.google.com).
 
 ### Images:
-- All images were created by myself for the purpose of this project using [ChatGPT](chatgpt.com)
+- All images were created by myself for the purpose of this project using [ChatGPT](chatgpt.com).
