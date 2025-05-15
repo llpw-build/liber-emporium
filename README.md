@@ -1,5 +1,5 @@
 ﻿# liber-emporium
-Liber Emporium, is a project for a book-store that I have decided to work on. I have chosen this project because when narrowing down what I would like to work on, I decided to focus on a website that I would be passionate about and as I have always had a passion for books and reading, it was only natural that I wanted to challenge myself by creating a book-store website with multiple pages and aspects. The website is to be tailored to any book enthusiasts who are in the local area. Ensuring that the website would be attractive and appealing to the user while ensuring the key business goal was met, was my main objective and focus.
+Liber Emporium, is a project for a book-store that I have decided to work on. I have chosen this project because when narrowing down what I would like to work on, I decided to focus on a website that I would be passionate about and as I have always had a passion for books and reading, it was only natural that I wanted to challenge myself by creating a book-store website with multiple pages and aspects. The website is to be tailored to any book enthusiasts who are in the local area. Ensuring that the website would be attractive and appealing to the user while ensuring the key business goal (Increase the revenue and brand awareness for the business by improving customer engagement, experience and satisfaction through a clean and appealing website that meets users needs and leads to new engagement and loyal customers.) was met, was my main objective and focus.
 
 I wanted the project to be something I could apply to my realworld life and thus motivate me even more and to build something I could genuinely be proud of, furthering my determination and outlook on this project.
 
@@ -20,5 +20,123 @@ These user stories, allowed me to design and plan my website and wireframes with
 When choosing my design ideas, I used the above user stories to create my wireframes and what I wanted the site to look like. Below, you can see images of my rough sketches of my wireframes. However, you may notice, that as my website began to take shape, I had to move away from some of the design choices and color schemes as they were not user friendly.
 
 Here you can see my early wireframes: 
+
 ![Wireframe](images/wireframe.jpg)
 ![Wireframe 1](images/wireframe-1.jpg)
+
+As you can see, the colour ways did not look good together and the overall layout of my website changed. One key example is having a map in the footer, which I came to realise was not realistic for someone at my level.
+
+## Features
+
+- ### Home page
+The home page is the first things the customer sees, and I wanted it to be attractive and appealing, include a logo and informative sections. Here we can see the homr page on opening up the website:
+
+![Homepage](homepage.png)
+
+Here is the informative carousel providing the user a preview:
+
+![Carousel](carousel.png)
+
+Here is the informative section with styling to draw the users eye:
+
+![informative](informative.png)
+
+Here is the location and contact us section, which aids the user in finding or contacting the shop and also provides form:
+
+![location and contact section](lcsection.png)
+
+- ### Navbar
+
+The navbar is available on all pages and provides a clean and simply way for the user to access any of the site. This is the same for any screen size, however, for mobile it becomes a hamburger menu for easier access:
+
+![Navbar](navbar.png)
+
+- ### Footer
+
+A simple footer with custom social media links that open in a new tab:
+
+![footer](footer.png)
+
+- ### Additional pages photo and information section
+
+On each additional page, there is a text and image section which provides the user with an example of what they can either purchase or recieve as a service and text explaining the different options to the user:
+
+![image and text informative](itsection.png)
+
+- ### Contact form for enquiring about any product or service offered on each page
+
+On each page there is also a form for contacting the store or enquiring about the products or services on offer:
+
+![form](form.png)
+
+- ### Confirmation of form submitted page
+
+Whenever any form is submitted on the website, the user is taken to a confirmation page which also goes directly back to the home page.
+
+![confirmation](confirmation.png)
+
+## Technology used
+
+The technology used for this project are the following:
+- HTML5
+- CSS3
+- Bootstrap v5.3
+- Fontawesome
+- Google maps.
+- For selecting colours, I utilised the options available to me on VScode to go between hex, rgb etc.
+
+## Testing
+
+In regards to testing, I have run the code through numerous screen sizes using the google inspection element and adjusted the code accordingly used media queries which has led to a consistently attractive website accross all sizes, that has no issues.
+
+The reason I believe the code has no issues, is because I have ran all of my code through the appropriate validators and recieved confirmation that there are no issues.
+
+### HTML:
+
+No issues were found while running the code through the [official W3C validator.](https://validator.w3.org/)
+
+### CSS:
+
+No issues were found while running the code through the [official Jigsaw validator](https://jigsaw.w3.org/css-validator/)
+
+## Bugs
+
+Although there were not many bugs I could not resolve due to this being a simple site, one which did cause me issues, was attempting to get the "Location" and "Contact" sections to align with eachother. The main reason I struggled to resolve this, was due to not being greatly experienced with Bootstrap, however, after some much needed research, I was able to find the correct outcome, which was simply using position:relative after my previous use of position:absolute, I also did not include a Z-index and thus when commiting both these changes, my biggest bug was fixed. The reason this took me so long, was due to trial and error with different ways to get the sections to line up, which when I finally got, it then covered my titles. This has now all been fixed.
+
+## Deployment
+
+I deployed my site through Github pages and I did so using the following steps:
+1. In the Github repository, navigate to the Settings tab.
+2. Select Pages.
+3. Select deploy from a branch and choose main.
+4. Save.
+5. The website is then deployed.
+
+To run the website locally, in an environment such as Gitpod:
+1. Clone the repository from Github.
+2. Navigate to the Project Directory.
+3. Check the repository contents to ensure the clone was successful.
+4. Install a simply HTTP server.
+5. Start the server.
+6. Access the website.
+
+Live access to the site is available at:
+[https://llpw-build.github.io/liber-emporium/index.html]
+
+## Credits
+
+### Content:
+- I did not use any sources for any of my text as it was an entirely made up fictional shop, so all text was created by me.
+- I followed some of the earlier sessions videos while starting to design my wesbite, mainly just for the boilerplate of a website (header/main/footer), however, I did not directly copy any of the code as it was customised to my needs. I have highlighted these sections with comments as requested.
+
+### Logos:
+- Any logos came from [Fontawesome](https://fontawesome.com/v4/icons/)
+
+### Maps:
+- All maps provided by Google.
+
+### Fonts:
+- All fonts provided by [Google.](fonts.google.com)
+
+### Images:
+- All images were created by myself for the purpose of this project using [ChatGPT](chatgpt.com)
