@@ -253,7 +253,7 @@ main {
 
 .location-section {
     padding: 3rem 0;
-    background-color: lightblue;
+    background-color: rgb(177, 216, 228);
     margin-top: 2rem;
 }
 
@@ -262,17 +262,32 @@ main {
     flex-wrap: wrap;
 }
 
-.map-column, .contact-column {
-    padding-top: 1.5rem;
-    background-color: lightblue;
-    border-radius: 8px;
+.location-section .col-md-6 {
+    position: relative;
+    margin-bottom: 1.5rem;
+    padding-top: 60px
 }
 
-.map-column h2, .contact-column h2 {
-    color: white;
-    margin-top: 0;
-    margin-bottom: 1.5rem;
-    font-family: 'Roboto', sans-serif;
+.location-section .col-md-6 h2 {
+   position: absolute;
+   top: 15px;
+   left: 15px;
+   margin: 0;
+   color: white;
+   z-index: 1;
+}
+
+.location-section .col-md-6:first-child::after {
+    content: "";
+    position: absolute;
+    top: 60px;
+    left: 15px;
+    right: 15px;
+    bottom: 0;
+    background-color: white;
+    border-radius: 8px;
+    z-index: -1;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .map-container {
@@ -290,39 +305,30 @@ main {
 /* Store info styling */
 
 .store-info {
-    background-color: lightblue;
+    background-color: transparent;
     padding: 1.5rem;
-    border-radius: 8px;
 }
 
 .store-info p {
-    margin-bottom: 0.8rem;
-    display: flex;
-    align-items: center;
+   color: white;
 }
 
 .store-info i {
     color: white;
+    margin-right: 10px;
 }
 
 /* Contact form styling */
 
-.contact-column {
-    background-color: lightblue;
-    padding: 2rem;
+.contact-form {
+    background-color: white;
+    padding: 1.5rem;
     border-radius: 8px;
-    color: white;
-}
-
-.contact-column h2 {
-    color: white;
-    margin-bottom: 1.5rem;
-    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .contact-form .form-label {
-    color: white;
-    font-weight: 500;
+    color: lightblue
 }
 
 .contact-form .form-control,
@@ -356,11 +362,6 @@ main {
 .location-section .row {
     display: flex;
     flex-wrap: wrap;
-}
-
-.map-column h2, .contact-column h2 {
-    margin-top: 0;
-    padding-top: 1.5rem;
 }
 
 .map-container iframe {
