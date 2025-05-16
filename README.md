@@ -136,10 +136,10 @@ Live access to the site is available at:
 - All maps provided by Google.
 
 ### Fonts:
-- All fonts provided by [Google.](fonts.google.com).
+- All fonts provided by [Google](https://fonts.google.com).
 
 ### Images:
-- All images were created by myself for the purpose of this project using [ChatGPT](chatgpt.com).
+- All images were created by myself for the purpose of this project using [ChatGPT](https://chatgpt.com).
 
 ### Favicons:
-- Favicon for website (stack of books) was downloaded from [favicon.io](favicon.io).
+- Favicon for website (stack of books) was downloaded from [favicon.io](https://favicon.io).
