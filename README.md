@@ -33,21 +33,21 @@ The home page is the first things the customer sees, and I wanted it to be attra
 
 ![Homepage](images/homepage.png)
 
-Here is the informative carousel providing the user a preview:
+Here is the informative carousel providing the user a preview, this ties directly with user story 1 and 5:
 
 ![Carousel](images/carousel.png)
 
-Here is the informative section with styling to draw the users eye:
+Here is the informative section with styling to draw the users eye, again (all user stories):
 
 ![informative](images/informative.png)
 
-Here is the location and contact us section, which aids the user in finding or contacting the shop and also provides form:
+Here is the location and contact us section, which aids the user in finding or contacting the shop and also provides form (user story 1 and 6):
 
 ![location and contact section](images/lcsection.png)
 
 - ### Navbar
 
-The navbar is available on all pages and provides a clean and simply way for the user to access any of the site. This is the same for any screen size, however, for mobile it becomes a hamburger menu for easier access:
+The navbar is available on all pages and provides a clean and simply way for the user to access any of the site. This is the same for any screen size, however, for mobile it becomes a hamburger menu for easier access (all user stories):
 
 ![Navbar](images/navbar.png)
 
@@ -59,19 +59,19 @@ A simple footer with custom social media links that open in a new tab:
 
 - ### Additional pages photo and information section
 
-On each additional page, there is a text and image section which provides the user with an example of what they can either purchase or recieve as a service and text explaining the different options to the user:
+On each additional page, there is a text and image section which provides the user with an example of what they can either purchase or recieve as a service and text explaining the different options to the user (user stories 2,3 and 4):
 
 ![image and text informative](images/itsection.png)
 
 - ### Contact form for enquiring about any product or service offered on each page
 
-On each page there is also a form for contacting the store or enquiring about the products or services on offer:
+On each page there is also a form for contacting the store or enquiring about the products or services on offer(user stories 4 and 6):
 
 ![form](images/form.png)
 
 - ### Confirmation of form submitted page
 
-Whenever any form is submitted on the website, the user is taken to a confirmation page which also goes directly back to the home page.
+Whenever any form is submitted on the website, the user is taken to a confirmation page which also goes directly back to the home page(all user stories):
 
 ![confirmation](images/confirmation.png)
 
@@ -89,7 +89,7 @@ The technology used for this project are the following:
 
 In regards to testing, I have run the code through numerous screen sizes using the google inspection element and adjusted the code accordingly used media queries which has led to a consistently attractive website accross all sizes, that has no issues.
 
-The reason I believe the code has no issues, is because I have ran all of my code through the appropriate validators and recieved confirmation that there are no issues.
+The reason I believe the code has no issues, is because I fixed the only two issues to arise when I first ran it through the validator, which was, I had included "Width: 100%" in my HTML for my embedded map, when I should of had this in my CSS. This was flagged by the validator stating it did not expect "%" after the figure. This was easily corrected. The second was a stray "</section>" tag on line 55 of my code, which was removed. I then ran all of my code through the appropriate validators again and recieved confirmation that there are no issues.
 
 ### HTML:
 
