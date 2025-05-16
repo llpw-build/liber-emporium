@@ -140,3 +140,6 @@ Live access to the site is available at:
 
 ### Images:
 - All images were created by myself for the purpose of this project using [ChatGPT](chatgpt.com).
+
+### Favicons:
+- Favicon for website (stack of books) was downloaded from [favicon.io](favicon.io).
